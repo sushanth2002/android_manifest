@@ -11,13 +11,15 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/soong" name="android_build_soong" remote="havoc" >
+  <project path="build/soong" name="89825/android_build_soong" remote="github" revision="pie" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="bionic" name="android_bionic" remote="havoc" />
+  <project path="bionic" name="89825/android_bionic" remote="github" revision="pie" />
 
+  <project path="external/perfetto" name="89825/external_perfetto" remote="github" revision="9.0" /> 
+  
   <project path="bootable/recovery" name="android_bootable_recovery" remote="havoc" />
 
   <project path="external/roboto-fonts" name="android_external_roboto-fonts" remote="havoc" />
