@@ -16,6 +16,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="art" name="android_art" remote="havoc"/>
   <project path="bionic" name="89825/android_bionic" remote="github" revision="pie" />
 
   <project path="external/perfetto" name="89825/external_perfetto" remote="github" revision="9.0" /> 
