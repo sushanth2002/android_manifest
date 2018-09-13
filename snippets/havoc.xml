@@ -55,7 +55,7 @@
 
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="havoc" />
 
-  <project path="system/core" name="android_system_core" remote="havoc" />
+  <project path="system/core" name="Havoc-OS/android_system_core" remote="github" revision="dipper" />
   <project path="system/extras" name="android_system_extras" remote="havoc" />
 
   <project path="vendor/havoc" name="android_vendor_havoc" remote="havoc" />
