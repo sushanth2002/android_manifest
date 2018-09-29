@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <!-- Havoc additions -->
-  <project path="build/make" name="android_build_make" remote="havoc" >
+
+  <project path="build/make" name="android_build" remote="havoc" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -23,7 +25,16 @@
   
   <project path="bootable/recovery" name="android_bootable_recovery" remote="havoc" />
 
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="havoc" />
+
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="havoc" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="havoc" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="havoc" />
+  <project path="external/expat" name="android_external_expat" remote="havoc" />
+  <project path="external/jemalloc" name="android_external_jemalloc" remote="havoc" />
+  <project path="external/libpng" name="android_external_libpng" remote="havoc" />
   <project path="external/roboto-fonts" name="android_external_roboto-fonts" remote="havoc" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="havoc" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="havoc" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="havoc" />
@@ -34,22 +45,29 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="havoc" />
   <project path="frameworks/support" name="android_frameworks_support" remote="havoc" />
 
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="havoc" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="havoc" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="havoc" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="havoc" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="havoc" />
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="havoc" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="havoc" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="havoc" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="havoc" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="havoc" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="havoc" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="havoc" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="havoc" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="havoc" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="havoc" />
 
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="havoc" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="havoc" />
   <project path="packages/apps/HavocSettings" name="android_packages_apps_HavocSettings" remote="havoc" />
+  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="havoc" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="havoc" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="havoc" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="havoc" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="havoc" />
+  <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="havoc" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="havoc" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="havoc" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="havoc" />
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="havoc" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="havoc" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="havoc" />
 
@@ -57,6 +75,7 @@
 
   <project path="system/core" name="Havoc-OS/android_system_core" remote="github" revision="dipper" />
   <project path="system/extras" name="android_system_extras" remote="havoc" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="havoc" />
 
   <project path="vendor/havoc" name="android_vendor_havoc" remote="havoc" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="havoc" />
@@ -64,4 +83,5 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="havoc" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="havoc" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="havoc" />
+
 </manifest>
