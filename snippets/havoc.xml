@@ -13,7 +13,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/soong" name="89825/android_build_soong" remote="github" revision="pie" >
+  <project path="build/soong" name="Havoc-OS/android_build_soong" remote="github" revision="pie" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
