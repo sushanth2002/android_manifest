@@ -13,6 +13,10 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+  
+   <remote name="havoc_private"
+           fetch="ssh://git@github.com"
+           revision="pie" />
 
   <remote  name="havoc"
            fetch="https://github.com/Havoc-OS"
