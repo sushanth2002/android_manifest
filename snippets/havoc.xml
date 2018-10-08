@@ -21,7 +21,7 @@
   <project path="art" name="android_art" remote="havoc"/>
   <project path="bionic" name="89825/android_bionic" remote="github" revision="pie" />
 
-  <project path="external/perfetto" name="89825/external_perfetto" remote="github" revision="9.0" /> 
+  <project path="external/perfetto" name="external_perfetto" remote="havoc" /> 
   
   <project path="bootable/recovery" name="android_bootable_recovery" remote="havoc" />
 
