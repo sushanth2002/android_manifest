@@ -21,11 +21,11 @@
   <project path="art" name="android_art" remote="havoc"/>
   <project path="bionic" name="89825/android_bionic" remote="github" revision="pie" />
 
-  <project path="external/perfetto" name="external_perfetto" remote="havoc" /> 
+  <project path="external/perfetto" name="android_external_perfetto" remote="havoc" /> 
   
   <project path="bootable/recovery" name="android_bootable_recovery" remote="havoc" />
 
-  <project path="device/qcom/sepolicy" name="ZeNiXxX/android_device_qcom_sepolicy" remote="github" revision="pie" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="havoc"/>
 
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="havoc" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="havoc" />
@@ -68,7 +68,7 @@
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="havoc" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="havoc" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="havoc" />
-  <project path="packages/providers/MediaProvider" name="Havoc-Os/android_packages_providers_MediaProvider" remote="github" revision="pie-wip" />
+  <project path="packages/providers/MediaProvider" name="Havoc-OS/android_packages_providers_MediaProvider" remote="github" revision="pie" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="havoc" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="havoc" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="havoc" />
