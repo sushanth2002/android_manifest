@@ -56,7 +56,8 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="havoc" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="havoc" />
   <project path="hardware/ril" name="android_hardware_ril" remote="havoc" />
-
+  
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="havoc" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="havoc" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="havoc" />
   <project path="packages/apps/HavocSettings" name="ZeNiXxX/havoc_settings_wrack" remote="havoc_dipper" />
