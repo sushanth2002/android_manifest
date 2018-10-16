@@ -59,6 +59,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
 
@@ -67,6 +68,8 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/frameworks/opt/net/voip" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/support" />
@@ -74,14 +77,17 @@
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
 
   <!-- Package repos -->
@@ -93,16 +99,17 @@
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
+  <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/SpareParts" />
-  <remove-project name="platform/packages/apps/Stk" />
   <remove-project name="platform/packages/apps/Terminal" />
   <remove-project name="platform/packages/apps/Test/connectivity" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
