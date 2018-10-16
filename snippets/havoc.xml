@@ -43,10 +43,10 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="havoc" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="havoc" />
   <project path="frameworks/native" name="android_frameworks_native" remote="havoc" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="havoc" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="havoc" revision="pie-ims" />
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="havoc" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="havoc" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="havoc" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="havoc" revision="pie-ims" />
   <project path="frameworks/support" name="android_frameworks_support" remote="havoc" />
 
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="havoc" />
@@ -77,8 +77,8 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="havoc" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="havoc" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="havoc" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="havoc" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="havoc" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="havoc" revision="pie-ims" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="havoc" revision="pie-ims" />
 
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="havoc" />
 
@@ -94,6 +94,6 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="havoc" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="havoc" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="havoc" />
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="havoc" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="havoc" revision="pie-ims" />
 
 </manifest>
