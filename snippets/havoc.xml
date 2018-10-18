@@ -40,7 +40,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="havoc" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="havoc" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="havoc" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="havoc" revision="pie-ims" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="havoc" />
   <project path="frameworks/native" name="android_frameworks_native" remote="havoc" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="havoc" revision="pie-ims" />
