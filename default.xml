@@ -25,6 +25,10 @@
   <remote  name="havoc"
            fetch="https://github.com/Havoc-OS"
            revision="pie" />
+  
+    <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-16.0" />
 		   
   <remote  name="havoc-devices"
            fetch="https://github.com/Havoc-Devices"
