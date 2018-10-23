@@ -3,6 +3,8 @@
 
   <!-- Havoc additions -->
 
+  <project path="build/kati" name="android_build_kati" remote="havoc" />
+
   <project path="build/make" name="android_build" remote="havoc" revision="pie-wip" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
