@@ -48,8 +48,9 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="havoc" />
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="havoc" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="havoc" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="havoc"/>
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="havoc" revision="pie-ims" />
   <project path="frameworks/support" name="android_frameworks_support" remote="havoc" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="havoc" revision="pie-ims" />
 
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="havoc" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="havoc" />
@@ -61,7 +62,6 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="havoc" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="havoc" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="havoc" />
-  <project path="hardware/qcom/ril" name="android_hardware_qcom_ril" remote="havoc" />
   <project path="hardware/ril" name="Havoc-OS/android_hardware_ril" remote="github" revision="dipper" />
 
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="havoc" />
@@ -77,8 +77,8 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="havoc" />
   <project path="packages/providers/MediaProvider" name="Havoc-OS/android_packages_providers_MediaProvider" remote="github" revision="pie" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="havoc" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="havoc" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="havoc"/>
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="havoc" revision="pie-ims" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="havoc" revision="pie-ims" />
   <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="havoc" />
 
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="havoc" />
@@ -95,7 +95,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="havoc" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="havoc" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="havoc" />
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="havoc" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="havoc" revision="pie-ims"  />
 
   <!-- Dipper Lineage NFC STACK-->
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
